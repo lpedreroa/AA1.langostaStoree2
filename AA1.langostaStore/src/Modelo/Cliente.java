@@ -48,9 +48,9 @@ public class Cliente {
     public void setNif(String nif) {
         this.nif = nif;
     }
-    public void addPedido(Pedido pedido){
+  /*  public void addPedido(Pedido pedido){
         pedidos.add(pedido);
-    }
+    }*/
 
     public ArrayList<Pedido> getPedidos() {
         return pedidos;
