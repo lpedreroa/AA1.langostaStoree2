@@ -20,10 +20,11 @@ public class ClienteController {
             switch (opc) {
                 case 1:
                     Cliente cliente = vista.lecturaCliente();
-                    bbdd.agregarCliente(cliente);
+                    bbdd.addCliente(cliente);
                     break;
                 case 2:
-                    List<Cliente> datos = bbdd.obtenerClientes();
+                    List<Cliente> datos = bbdd.getClientes();
+                    //bbdd.
                     vista.mostrarClientes(datos);
                     break;
                 default:
